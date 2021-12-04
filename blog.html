@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial=1.0">   <!-移动端的浏览设置-->
+    <title>博客详情</title>
+    <!--引用semantic-ui-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <!--引入CSSme-->
+   <link rel="stylesheet" href="static/css/me.css">
+</head>
+<body>
+<!--    &lt;!&ndash;引用框架&ndash;&gt;
+    &lt;!&ndash;使用CDN的方式引入semantic-ui&ndash;&gt;
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js">
+    </script>
+    &lt;!&ndash;引用JQUERY https://www.jsdelivr.com/&ndash;&gt;
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js">
+     </script>-->
+
+
+<!--导航-->
+<nav class="ui inverted attached segment m-padded-mini">
+    <div class="ui container">
+            <div class="ui inverted secondary stackable menu" >  <!-- stackable移动端适配可堆叠!!!!!!!!!!!-->
+        <h2 CLASS="ui teal header item">Blog</h2><!--LOGO!!-->
+                <a href="#" class="m-item item m-mobile-hide"><i class=" home icon"></i> 首页</a>   <!--引用框架图标-->    <!--m-mobile-hide手机端隐藏样式-->
+                <a href="#" class="m-item item m-mobile-hide"><i class=" idea icon"></i> 分类</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class=" tags icon"></i> 标签</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class=" clone icon"></i> 归档</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class=" info icon"></i> 关于我</a>
+                <!--探索框-->
+               <div class="right m-item item m-mobile-hide">
+            <div class="ui icon inverted transparent input">  <!--transparent  把框变成透明-->  <!--inverted 可以看到icon-->
+                <input type="text" placeholder="探索！...">
+                <i class="search link icon"></i>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+                    <!--menu toggle 获取Jquery-->
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">   <!--上部按钮+ 绝对定位-->  <!---->      <!--menu toggle 获取Jq-->
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<!--中间内容-->
+
+  <div class="m-container-small m-padded-tb-big">
+      <div class="ui container">
+          <div class="ui top attached segment ">  <!--attached 浮动拼接 -->     <!--top 圆角-->
+                <!--头部-->
+              <div class="ui horizontal link list">              <!--横组件-->
+                 <div class="item">
+                   <img src="static/image/touxiang.jpg" alt="" class="ui avatar image">
+                       <!--avatar 是用户头像的约束（大概）-->
+                         <div class="content"><a href="#" class="header">哈高翔</a></div>
+                          </div>
+                   <div class="item">
+                       <i class="calendar icon"></i>2021-12-4  <!--时间日期ICON-->
+                    </div>
+                    <div class="item">
+                   <i class="eye icon"></i> 1  <!--浏览次数-->
+                  </div>
+              </div>
+          </div>
+          <!-- -----------------------------------------------------------------------------      写的像狗屎                         -->
+          <div class="ui attached segment">
+              <!--图片 -->
+              <img src="static/image/bg.jpg" alt="" class="ui fluid rounded image">  <!--fluid 撑满图片-->
+          </div>
+             <div class="ui attached padded segment">
+              <!--内容 -->
+                 <div class="ui right aligned basic segment">  <!--靠右--> <!--basic去除边线-->
+                 <div class="ui orange basic label">原创</div>
+                 </div>
+                <!--内容中的文本页面 标题-->
+                 <h2 class="ui center aligned header">机械制造工艺学</h2>
+                 <br>
+                 <div id="content" class="m-padded-lr m-padded-tb-large">
+                    <p>1、简单机器组成：原动机部分、执行部分、传动部分三部分组成。2、运动副：使构件直接接触又能保持一定形式的相对运动的连接称为运动副。高副：凡为点接触或线接触的运动副称为高副。低副：凡为面接触的运动副称为低副。</p>局部自由度：对整个机构运动无关的自由度称为局部自由度。自由度：构件的独立运动称为自由度。平面机构运动简图：说明机构各构件间相对运动关系的简单图形称为机构运动简图。</p>
+                     <h2>1</h2>
+                     <p>3、普通螺纹牙型角为α=60°梯形螺纹牙型角为α=30°矩形螺纹的牙型是正方形。传递效率最高的螺纹牙型是矩形螺纹（正方形）。自锁性最好的是三角螺纹牙型。4、常用的防松方法有哪几种？（1）摩擦防松（2）机械防松（3）不可拆防松。5、平键如何传递转矩？平键是靠键与键槽侧面的挤压传递转矩。6、单圆头键用于薄壁结构、空心轴及一些径向尺寸受限制的场合。7、零件的轴向移动采用导向平键或滑键。</p>
+                     <h2>2</h2>
+                     <p>8、联轴器与离合器有何共同点、不同点？联轴器与离合器共同点：联轴器和离合器是机械传动中常用部件。它们主要用来连接轴与轴，或轴与其他回转零件以传递运动和转矩。不同点：在机器工作时，联轴器始终把两轴连接在一起，只有在机器停止运行时，通过拆卸的方法才能使两轴分离；而离合器在机器工作时随时可将两轴连接和分离。9、有补偿作用的联轴器属于挠性联轴器类型。</p>
+                     <h2>3</h2>
+                     <p>10、挠性联轴器有哪些形式？解：挠性联轴器分为无弹性元件的挠性联轴器和有弹性元件的联轴器。无弹性元件的挠性联轴器有以下几种（1）十字滑块联轴器（2）齿式联轴器（3）万向联轴器（4）链条联轴器有弹性元件的挠性联轴器又分为（5）弹性套柱销联轴器（6）弹性柱销联轴器（7）轮胎式联轴器 11、离合器分牙嵌式离合器和摩擦式两大类。</p>
+                     <h2>4</h2>
+                     <p>12、钢卷尺里面的弹簧采用的是螺旋弹簧。汽车减震采用的是板弹簧。13、铰链四杆机构有哪些基本形式？各有何特点？ 解：铰链四杆机构有三种基本形式（1）曲柄摇杆机构（2）双摇杆机构（3）双曲柄机构。特点：（4）一连架杆能整周回转，另一连架杆只能往复摆动。（5）两连架杆均为摇杆。（6）两连架杆均能整周回转。14、曲柄：能绕机架作整周转动的连架杆。连杆：不直接与机架连接的构件连架杆：与机架用转动副相连接的构件机架：机构的固定构件</p>
+                     <h2>5</h2>
+                     <p>15、铰链四杆机构可演化成哪几种形式？ 答：（1）转动副转化成移动副，曲柄摇杆转化成曲柄滑块或曲柄摇块，双曲柄转化为转动导杆，双摇杆转化成移动导杆。</p>
+                 </div>
+                 <!--      标签    -->
+                 <div class="m-padded-lr">
+                     <div class="ui basic teal left pointing label">方法论</div>
+                 </div>
+                 <!--赞赏的功能-->
+                 <div class="ui center aligned basic segment">
+                     <button id="payButton" class="ui orange basic circular button">
+                     赞赏
+                 </button>
+                 </div>
+                 <div class="ui payQR flowing popup transition hidden">  <!--PAYQ代表二维码区域-->
+                       <div class="ui orange basic label">
+                     <div class="ui images" style="font-size: inherit !important;">  <!--ui image 这个组件会强制把fontsize 现实成0这里需要使用内敛样式让文字显示-->
+                         <div class="image">
+                             <img src="static/image/weixintupian.png" alt="" class="ui rounded bordered image" style="width: 120px"><!--rounede圆角 bordered 边线-->
+                             <div>支付宝</div>
+                         </div>
+                            <div class="image">
+                             <img src="static/image/weixintupian.png" alt="" class="ui rounded bordered image" style="width: 120px">
+                                <div>微信</div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+
+
+          </div>
+          <div class="ui attached positive message">  <!--positive 颜色央视-->
+              <!--博客信息-->
+              <div class="ui middle aligned grid">  <!--垂直方向居中-->
+                  <div class="eleven wide column">
+                        <ui class="list">
+                            <li>作者：哈高翔（联系作者）</li>
+                            <li>发表时间：2021/12/4</li>
+                            <li>版权声明：自由转载-非商用-非衍生-保持署名(创意共享3.0)</li>
+                            <li>公众号转载：请在文末添加作者公众号二维码</li>
+                        </ui>
+                  </div>
+                  <div class="five wide column">
+                      <img src="static/image/weixintupian.png" alt="" class="ui right floated rounded bordered image" style="width: 110px">
+                  </div>
+              </div>
+          </div>
+          <!--留言！！！！！！！！！！！！-->
+          <div class="ui bottom attached segment">  <!--bottom 倒圆角-->
+                <!--使用留言组建-->
+              <div class="ui teal segment">  <!--留言区-->
+                    <div class="ui threaded comments">
+                        <!--导入组件-->
+  <h3 class="ui dividing header">Comments</h3>
+  <div class="comment">
+    <a class="avatar">
+      <img src="static/image/touxiang/4.jpg">
+    </a>
+    <div class="content">
+      <a class="author">Matt</a>
+      <div class="metadata">
+        <span class="date">今天下午 5:42</span>
+      </div>
+      <div class="text">太赞了！ </div>
+      <div class="actions">
+        <a class="reply">Reply</a>
+      </div>
+    </div>
+  </div>
+  <div class="comment">
+    <a class="avatar">
+      <img src="static/image/touxiang/1.jpg">
+    </a>
+    <div class="content">
+      <a class="author">Elliot Fu</a>
+      <div class="metadata">
+        <span class="date">昨天上午12:30</span>
+      </div>
+      <div class="text">
+        <p>這對我的研究是非常有用.謝謝!</p>
+      </div>
+      <div class="actions">
+        <a class="reply">Reply</a>
+      </div>
+    </div>
+    <div class="comments">
+      <div class="comment">
+        <a class="avatar">
+          <img src="static/image/touxiang/2.jpg">
+        </a>
+        <div class="content">
+          <a class="author">Jenny Hess</a>
+          <div class="metadata">
+            <span class="date">刚刚</span>
+          </div>
+          <div class="text">艾略特你永远是多么正确 :) </div>
+          <div class="actions">
+            <a class="reply">Reply</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="comment">
+    <a class="avatar">
+      <img src="static/image/touxiang/3.jpg">
+    </a>
+    <div class="content">
+      <a class="author">Joe Henderson</a>
+      <div class="metadata">
+        <span class="date">5 天以前</span>
+      </div>
+      <div class="text">老兄，这太棒了。非常感谢。 </div>
+      <div class="actions">
+        <a class="reply">Reply</a>
+      </div>
+    </div>
+  </div>
+  <form class="ui reply form">
+    <div class="field">
+      <textarea></textarea>
+    </div>
+    <div class="ui blue labeled submit icon button">
+      <i class="icon edit"></i> Add Reply
+    </div>
+  </form>
+</div>
+              </div>
+              <div class="ui form">
+
+              </div>
+          </div>
+      </div>
+  </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+ <!--底部-->
+<footer class="ui inverted vertical segment m-padded-tb-massive" >  <!--反色和线框--> <!--使用CSS修改距离-->
+    <div class="ui center aligned container">      <!-- center aligned 居中-->
+        <div class="ui inverted divided stackable grid">
+            <!--grid容器会分成16份     bootstarp分成12分--> <!--分成 3+3+3+7-->
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="static/image/weixintupian.png" class="ui rounded image" alt="" style="width:110px">
+                    </div>
+                </div>
+
+            </div>            <!--列-->
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced ">最新博客</h4>
+                <div class="ui inverted link list">         <!--框架中的列表 -->
+                    <a href="#" class="item">用户故事</a>
+                    <a href="#" class="item">用户故事</a>
+                    <a href="#" class="item">用户故事</a>
+                </div>
+            </div>
+            <div class="three wide column m-text-thin m-text-spaced">
+                <h4 class="ui inverted header">联系我</h4>
+                <div class="ui inverted link list">         <!--框架中的列表 -->
+                    <a href="#" class="item">Email:Spicewy@outlook.com</a>
+                    <a href="#" class="item">QQ:2648988656</a>
+                    <a href="#" class="item">Wechet:SmilIslaSky</a>
+                </div>
+            </div>
+            <div class="seven wide column" >
+                <h4 class="ui inverted header m-text-thin m-text-spaced m-opacity-mini">Blog介绍</h4>
+                <p class="m-text-thin m-text-spaced m-opacity-mini">这是我的个人博客,我会分享关于编程、美食、人生思考相关的内容、希望你可以帮到你....</p>
+            </div>
+        </div>
+        <!--画分割线-->
+       <div class="ui inverted section divider">
+       </div>
+        <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2021 12/3 哈高翔 Blog项目作业. All rights reserved.</p>  <!--作者-->  <!--版权信息-->
+    </div>
+</footer>
+
+
+    <!-- jQuery 必须放在底部！！！！！！！！！！！！！！！！！！！！！！-->
+    <!-- jQuery 必须放在底部！！！！！！！！！！！！！！！！！！！！！！-->
+    <!-- jQuery 必须放在底部！！！！！！！！！！！！！！！！！！！！！！-->
+    <!-- jQuery 必须放在底部！！！！！！！！！！！！！！！！！！！！！！-->
+    <!-- jQuery 必须放在底部！！！！！！！！！！！！！！！！！！！！！！-->
+      <!--引用框架-->
+    <!--使用CDN的方式引入semantic-ui-->
+
+
+<!-- Semantic-ui@2.4.2 版本无法使用Popup 功能实现二维码跳转 遂 换成 2.24版本                            -->
+<!--    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js">
+    </script>
+    &lt;!&ndash;引用JQUERY https://www.jsdelivr.com/&ndash;&gt;
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>-->
+
+<!---->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>        <!--框架版本几律-->
+<!--        -->
+<script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+
+
+<script>
+
+       $('#payButton').popup({
+           popup:$('.payQR.popup'),
+           on:'click',
+           position:"bottom center"
+       });
+
+    $('.menu.toggle').click(function () {
+      $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    </script>
+
+
+
+
+
+
+</body>
+</html>
