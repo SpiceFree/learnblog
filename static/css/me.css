@@ -1,0 +1,168 @@
+
+body{
+    background: url("../image/bg.jpg");  /*背景图问题：图片1分割 2:会覆盖到二维码的分割线*/
+}
+
+
+.m-padded-mini
+{
+    padding:0.2em !important;
+}
+
+.m-padded-tiny
+{
+    padding:0.3em !important;
+}
+
+/*     --------------------------*/
+.m-padded-tb-mini
+{
+    padding-top:0.2em !important;      /*改变上下间距*/
+    padding-bottom:0.2em !important;  /*!important 提高等级*/
+}
+.m-padded-tb-small
+{
+    padding-top:0.5em !important;      /*改变上下间距*/
+    padding-bottom:0.5em !important;  /*!important 提高等级*/
+}
+
+.m-padded-tb
+{
+    padding-top:1em !important;      /*改变上下间距*/
+    padding-bottom:1em !important;  /*!important 提高等级*/
+}
+
+.m-padded-tb-large
+{
+    padding-top:2em !important;      /*改变上下间距*/
+    padding-bottom:2em !important;  /*!important 提高等级*/
+}
+.m-padded-tb-big
+ {
+    padding-top:3em !important;      /*改变上下间距*/
+    padding-bottom:3em !important;  /*!important 提高等级*/
+}
+.m-padded-tb-huge{
+    padding-top:4em!important;
+    padding-bottom:4em !important;
+}
+.m-padded-tb-massive
+{
+    padding-top:5em !important;      /*改变上下间距*/
+    padding-bottom:5em !important;  /*!important 提高等级*/
+}
+
+.m-padded-lr
+{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+
+
+/*字体文本设置*/
+.m-text{
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    line-height: 1.8 !important; /*行间距*/
+}
+
+.m-text-thin
+{
+    font-weight: 300  !important;
+}
+.m-text-spaced
+{
+    letter-spacing: 1px !important; /*行间距 */
+}
+.m-text-lined
+{
+    line-height: 1.8 !important; /*行间距 */
+}
+
+/*透明度设置*/
+.m-opacity-mini
+{
+    opacity:0.8!important;  /*透明度*/
+}
+
+.m-opacity-tiny
+{
+    opacity:0.6!important;  /*透明度*/
+}
+
+/*margin*/
+
+.m-margin-top-small
+{
+    margin-top:0.5em !important;
+}
+
+.m-margin-top
+{
+    margin:1em !important;
+}
+.m-margin-top-large
+{
+    margin-top:2em !important;
+}
+
+.m-margin-tb-tiny
+{
+    margin-top:0.3em !important;
+    margin-bottom: 0.3em !important;  /*margin!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+}
+
+
+/*display*/
+.m-inline-block
+{
+    display: inline-block !important;
+}
+/*container*/
+
+.m-container{
+    max-width: 75em !important;
+    margin: auto !important;
+}
+
+.m-container-small{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
+
+
+
+
+
+/*color 颜色*/
+.m-black{
+    color:#333 !important;  /*深黑色*/
+}
+
+
+/*button按钮*/
+.m-right-top
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*shouji!!!!!!!!!*/
+.m-mobile-show{
+    display: none !important;
+}
+
+/*手机端分辨隐藏按钮*/
+/*如果 分辨率没有小于768 不会显示隐藏的左上方按钮 */
+@media screen and (max-width: 768px){
+    .m-mobile-hide{
+        display: none !important;
+    }
+    .m-mobile-show{
+        display: block !important;
+    }
+
+}
+
